@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
+	</head>
+	
+<body bgcolor="#f2f2f2">
+	<h2><b>My Reservation Form</b></h2>
+	<form>
+	 <table style="width:50%" align="center" cellpadding="5"><br><br>
+
+  <tr>
+    <td align="right">Accomodation.</td>
+    <th colspan="2" align="left"><select class="div1">
+ 		 <option value="Rv">Rv</option>
+ 		 <option value="A">A</option>
+		  <option value="B">B</option>
+		  <option value="C">C</option>
+			</select></th>  
+  </tr>
+		 
+  <tr>
+	 
+    <td align="right">Name</td>
+    <td><select class="div2"><option value="Mr">Mr.</option><option value="Ms">Ms.</option></select></td>
+	  <td ><input type="text" placeholder="First name" size="10"class="div2"/></td>
+	  <td><input type="text" placeholder="Last name"class="div2"/></td>  
+  </tr>
+		 
+	 <tr>
+    <td align="right">Guests</td>
+      <td><input type="text" placeholder="18+ years"class="div2"class="div2"/></td>
+	  <td><input type="text" placeholder="2-17 years"size="10"class="div2"/></td>
+	  <td><input type="text" placeholder="< 2 years"class="div2"class="div2"/></td>  
+  </tr>
+	
+		 
+	<tr>
+    <td rowspan="2" align="right">Contact</td>
+    <th colspan="3"><input type="email" name="email" placeholder="E-mail"class="div3"/></th>
+  	</tr>
+	<tr>
+	<th colspan="3"><input type="tel" name="email" placeholder="Phone:(xxx)-xxx xxxx"class="div3"/></th>
+	</tr>
+		 
+	<tr>
+    <td align="right">Checkin</td>
+      <td><input type="datetime-local" name="week"class="div2"/></td>
+		<td align="right">CheckOut</td>
+	  <td><input type="datetime-local" name="bdaytime"class="div2"/></td>  
+  </tr>
+		 
+	<tr width="47">
+    <td align="right" >Equipment Type</td>
+      <td ><select class="div2">
+ 		 <option value="Travel Trailer">Travel Trailer</option>
+ 		 <option value="A">A</option>
+		  <option value="B">B</option>
+		  <option value="C">C</option>
+			</select></td>
+		<td align="right">SideOuts</td>
+	  <td>			<label class="switch">
+  <input type="checkbox">
+  <span class="slider" align="center">ON.OFF</span>
+</label></td>  
+  </tr>
+		
+	<tr>
+    <td align="right">Required Service</td>
+	  <td><select name="cars" multiple class="div4">
+  		<option value="volvo">Volvo</option>
+  		<option value="saab">Saab</option>
+ 		 <option value="opel">Opel</option>
+ 		 <option value="audi">Audi</option>
+		</select></td>  
+  </tr>		 
+	 
+		 
+		<tr>
+			<td align="right">pets</td>
+			<td>		<label class="switch">
+  <input type="checkbox">
+  <span class="slider" align="center">ON.OFF</span>
+</label></td> 
+		 </tr>
+		 
+		 <tr>
+			<td align="right">Comments</td>
+			<th colspan="3"><textarea rows="4" cols="21"class="comment"></textarea></th> 
+		 </tr>
+		<tr>
+	
+	<th colspan="2" align="right"><input type="button" value="Request Reservation"class="request"/></th>
+	<th colspan="4" align="center"><input type="button" value="Cancel"class="cancel"/></th>
+	
+		</tr>
+		
+		
+		</table>
+
+	</form>
+</body>
+</html>
